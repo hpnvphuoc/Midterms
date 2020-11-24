@@ -4,8 +4,6 @@
 
     MSSV: 18120226
 
-**Điểm đề nghị cho bài tập: 10**
-
 **Các chức năng đã làm được: 100%**
 
 - Chức năng chung:
