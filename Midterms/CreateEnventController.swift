@@ -36,6 +36,7 @@ class CreateEnventController: UIViewController {
         alertView.showInfo("Cancel", subTitle: "Create new event will delete all the info from the previous or current event in app")
     }
     @IBAction func act_EditEvent(_ sender: Any) {
+        performSegue(withIdentifier: "CreateEventToAddEvent", sender: self)
     }
     @IBAction func act_Exit(_ sender: Any) {
         dismiss(animated: true, completion: nil)

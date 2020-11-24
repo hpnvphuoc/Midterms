@@ -42,7 +42,7 @@ class AddEventController: UIViewController {
     @IBOutlet weak var view_PreViewColor: UIView!
     
     var listEventRecords = [EventsRecord]()
-    var selectedItem:Int=0
+    var selectedItem:Int = -1
     func initData(){
         let Event1 = EventsRecord()
         Event1.initData(FirstName: "Nguyen", LastName:"Phuoc" , Guests: 2, Table: "56", Sections: "B")
@@ -212,19 +212,21 @@ extension AddEventController: UITableViewDataSource,UITableViewDelegate{
 extension AddEventController:PassDataBack{
     func passData(FirstName: String, LastName: String, Guests: Int, Tables: String, Sections: String,selectedItem:Int) {
         
-
-            var EventRecordTemp = EventsRecord()
-            EventRecordTemp.initData(FirstName: FirstName, LastName: LastName, Guests: Guests, Table: Tables, Sections: Sections)
+        if FirstName==""||LastName==""||Guests==0||Tables==""||Sections==""{
             
-           
-        
-        if selectedItem == -1{
-            listEventRecords.append(EventRecordTemp)
         }else{
-            listEventRecords.remove(at: selectedItem)
-            listEventRecords.insert(EventRecordTemp, at: selectedItem)
+            var EventRecordTemp = EventsRecord()
+                EventRecordTemp.initData(FirstName: FirstName, LastName: LastName, Guests: Guests, Table: Tables, Sections: Sections)
+            
+            if selectedItem == -1{
+                listEventRecords.append(EventRecordTemp)
+            }else{
+                listEventRecords.remove(at: selectedItem)
+                listEventRecords.insert(EventRecordTemp, at: selectedItem)
+            }
+            tbview_EventRecords.reloadData()
         }
-        tbview_EventRecords.reloadData()
+            
         
         
     }
