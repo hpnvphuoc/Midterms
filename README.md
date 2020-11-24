@@ -1,16 +1,14 @@
-#Midterms
+**Midterms
 
-#Thông tin cá nhân 
+**Thông tin cá nhân** 
    
     Họ và tên: Nguyễn Văn Phước
 
     MSSV: 18120226
 
-#Thông tin bài làm
+**Điểm đề nghị cho bài tập: 10
 
-    Điểm đề nghị cho bài tập: 10
-
-#Các chức năng đã làm được: 100%
+**Các chức năng đã làm được: 100%
 
 - Chức năng chung:
 
