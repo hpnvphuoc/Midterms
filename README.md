@@ -1,7 +1,5 @@
 **Midterms**
 
-**Thông tin cá nhân** 
-   
     Họ và tên: Nguyễn Văn Phước
 
     MSSV: 18120226
