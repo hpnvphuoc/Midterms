@@ -66,6 +66,6 @@ extension AddEventController: UITableViewDataSource,UITableViewDelegate{
 }
 extension AddEventController:PassDataBack{
     func passData(FirstName: String, LastName: String, Guests: Int, Tables: String, Sections: String) {
-        <#code#>
+        "AABC"
     }
 }
