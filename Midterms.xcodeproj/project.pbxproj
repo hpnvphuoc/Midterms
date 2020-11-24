@@ -16,6 +16,12 @@
 		D16B0563256D089A0090D47A /* AddEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0562256D089A0090D47A /* AddEventController.swift */; };
 		D16B0565256D110F0090D47A /* GuestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0564256D110F0090D47A /* GuestsCell.swift */; };
 		D16B0567256D3C7E0090D47A /* AddGuestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0566256D3C7E0090D47A /* AddGuestsController.swift */; };
+		D16B0569256D997D0090D47A /* GuestsDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0568256D997D0090D47A /* GuestsDashboardController.swift */; };
+		D16B056B256D9CB90090D47A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B056A256D9CB90090D47A /* SearchController.swift */; };
+		D16B056D256DA0B10090D47A /* SelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B056C256DA0B10090D47A /* SelectController.swift */; };
+		D16B056F256DA2B00090D47A /* SelectUserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B056E256DA2B00090D47A /* SelectUserViewCell.swift */; };
+		D16B0571256DA6A50090D47A /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0570256DA6A50090D47A /* InfoController.swift */; };
+		D16B0573256DA8110090D47A /* WhoseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B0572256DA8110090D47A /* WhoseTableViewCell.swift */; };
 		D1FB319D256AECAB000AF016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FB319C256AECAB000AF016 /* AppDelegate.swift */; };
 		D1FB319F256AECAB000AF016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FB319E256AECAB000AF016 /* SceneDelegate.swift */; };
 		D1FB31A6256AECAC000AF016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FB31A5256AECAC000AF016 /* Assets.xcassets */; };
@@ -59,6 +65,12 @@
 		D16B0562256D089A0090D47A /* AddEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventController.swift; sourceTree = "<group>"; };
 		D16B0564256D110F0090D47A /* GuestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsCell.swift; sourceTree = "<group>"; };
 		D16B0566256D3C7E0090D47A /* AddGuestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestsController.swift; sourceTree = "<group>"; };
+		D16B0568256D997D0090D47A /* GuestsDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsDashboardController.swift; sourceTree = "<group>"; };
+		D16B056A256D9CB90090D47A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		D16B056C256DA0B10090D47A /* SelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectController.swift; sourceTree = "<group>"; };
+		D16B056E256DA2B00090D47A /* SelectUserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserViewCell.swift; sourceTree = "<group>"; };
+		D16B0570256DA6A50090D47A /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		D16B0572256DA8110090D47A /* WhoseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoseTableViewCell.swift; sourceTree = "<group>"; };
 		D1FB3199256AECAB000AF016 /* Midterms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midterms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FB319C256AECAB000AF016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FB319E256AECAB000AF016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +163,12 @@
 				D1FB31AA256AECAC000AF016 /* Info.plist */,
 				D16B0564256D110F0090D47A /* GuestsCell.swift */,
 				D16B0566256D3C7E0090D47A /* AddGuestsController.swift */,
+				D16B0568256D997D0090D47A /* GuestsDashboardController.swift */,
+				D16B056A256D9CB90090D47A /* SearchController.swift */,
+				D16B056C256DA0B10090D47A /* SelectController.swift */,
+				D16B056E256DA2B00090D47A /* SelectUserViewCell.swift */,
+				D16B0570256DA6A50090D47A /* InfoController.swift */,
+				D16B0572256DA8110090D47A /* WhoseTableViewCell.swift */,
 			);
 			path = Midterms;
 			sourceTree = "<group>";
@@ -423,13 +441,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D16B0565256D110F0090D47A /* GuestsCell.swift in Sources */,
+				D16B0571256DA6A50090D47A /* InfoController.swift in Sources */,
+				D16B056F256DA2B00090D47A /* SelectUserViewCell.swift in Sources */,
+				D16B056B256D9CB90090D47A /* SearchController.swift in Sources */,
 				D16B0563256D089A0090D47A /* AddEventController.swift in Sources */,
 				D16B0559256CE4130090D47A /* LoginController.swift in Sources */,
 				D1FB319D256AECAB000AF016 /* AppDelegate.swift in Sources */,
 				D16B0567256D3C7E0090D47A /* AddGuestsController.swift in Sources */,
 				D16B0561256CFA2C0090D47A /* ChooseAccountController.swift in Sources */,
+				D16B0569256D997D0090D47A /* GuestsDashboardController.swift in Sources */,
+				D16B0573256DA8110090D47A /* WhoseTableViewCell.swift in Sources */,
 				D1FB319F256AECAB000AF016 /* SceneDelegate.swift in Sources */,
 				D129AF2A256CC5A1003B1E28 /* CreateEnventController.swift in Sources */,
+				D16B056D256DA0B10090D47A /* SelectController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

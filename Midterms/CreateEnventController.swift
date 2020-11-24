@@ -10,11 +10,18 @@ import UIKit
 import SCLAlertView
 
 class CreateEnventController: UIViewController {
-
+    @IBOutlet weak var btn_CreateEvent: UIButton!
+    
+    @IBOutlet weak var btn_EditEvent: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        btn_CreateEvent.layer.cornerRadius = 5
+        btn_CreateEvent.layer.borderWidth = 2
+        
+        btn_EditEvent.layer.cornerRadius=5
+        btn_EditEvent.layer.borderWidth=2
     }
     
     func navigation(){
@@ -31,7 +38,8 @@ class CreateEnventController: UIViewController {
     @IBAction func act_EditEvent(_ sender: Any) {
     }
     @IBAction func act_Exit(_ sender: Any) {
-
+        dismiss(animated: true, completion: nil)
+                 self.navigationController?.popViewController(animated: true)
     }
     
     
